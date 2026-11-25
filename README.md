@@ -4,20 +4,16 @@
 [![rank](https://make.fun/badge/u-zkhiel-one-line-laugh-off-714618ae/haidildariell/one-line-laugh-off-v1/rank.svg)](https://make.fun/bounty/u-zkhiel-one-line-laugh-off-714618ae)
 [![reward](https://make.fun/badge/u-zkhiel-one-line-laugh-off-714618ae/haidildariell/one-line-laugh-off-v1/reward.svg)](https://make.fun/bounty/u-zkhiel-one-line-laugh-off-714618ae)
 
-Entry for the [One-Line Laugh-Off bounty](https://make.fun/bounty/u-zkhiel-one-line-laugh-off-714618ae) on make.fun.
+Bounty: https://make.fun/bounty/u-zkhiel-one-line-laugh-off-714618ae
 
-## The line
+Entry for the [One-Line Laugh-Off](https://make.fun/bounty/u-zkhiel-one-line-laugh-off-714618ae) bounty on make.fun.
 
 > My therapist charges by the hour, so now I cry in bullet points.
 
-## How it works
+`main.py` writes that single line to `entry.txt` in the output directory,
+with a hard self-check that the entry is 1–200 characters and not blank.
 
-`main.py` writes exactly that one line to `/output/entry.txt`
-(or `$MAKEFUN_OUTPUT_DIR/entry.txt` when set), then self-checks the
-gate: UTF-8 text, 1–200 characters, not only whitespace. It exits
-non-zero if the gate would fail.
-
-Run it with:
+Run:
 
 ```sh
 python3 main.py
